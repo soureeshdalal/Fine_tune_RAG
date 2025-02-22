@@ -1,0 +1,12 @@
+torch
+transformers
+datasets
+accelerate
+bitsandbytes
+peft
+trl
+wandb
+sentence-transformers
+faiss-cpu
+huggingface_hub
+
