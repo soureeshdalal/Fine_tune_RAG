@@ -1,22 +1,16 @@
 <h1 align="center">Fine-Tuned Gemma-2B + Hybrid RAG (BM25 + ChromaDB)</h1>
 
-<p align="center">
-  <a href="https://github.com/soureeshdalal/Fine_tune_RAG">
-    <img src="https://img.shields.io/badge/GitHub-Fine--Tune--RAG-blue.svg" alt="GitHub Repository">
-  </a>
-</p>
-
 <p align="center">A hybrid retrieval-augmented generation (RAG) system integrating BM25 (sparse retrieval) with ChromaDB (dense retrieval), fine-tuned on the CodeAlpaca-20k dataset using the Gemma-2B model.</p>
 
 ---
 
-<h2> 🚀 Overview </h2>
+<h2>  Overview </h2>
 
 <p>
 This project focuses on optimizing retrieval-augmented generation (RAG) by fine-tuning the <strong>Gemma-2B</strong> model and integrating <strong>BM25</strong> (sparse retrieval) with <strong>ChromaDB</strong> (dense retrieval). Originally based on <strong>Mistral-7B</strong>, the model was later switched to <strong>Gemma-2B</strong> due to parameter constraints.
 </p>
 
-<h2> 🔥 Features </h2>
+<h2>  Features </h2>
 
 <ul>
   <li><strong>Fine-Tuned Gemma-2B</strong>: Optimized using the <a href="https://huggingface.co/datasets/rohanawhad/CodeAlpaca-20k-finetuning-format">CodeAlpaca-20k dataset</a></li>
@@ -28,7 +22,7 @@ This project focuses on optimizing retrieval-augmented generation (RAG) by fine-
 
 ---
 
-<h2> 🛠️ Technologies Used </h2>
+<h2> 🛠 Technologies Used </h2>
 
 <ul>
   <li><a href="https://huggingface.co">Hugging Face Transformers</a> - LLM fine-tuning and inference</li>
@@ -41,7 +35,7 @@ This project focuses on optimizing retrieval-augmented generation (RAG) by fine-
 
 ---
 
-<h2> 📂 Installation </h2>
+<h2>  Installation </h2>
 
 <ol>
   <li>Clone the repository:
@@ -58,7 +52,7 @@ cd Fine_tune_RAG</code></pre>
 
 ---
 
-<h2> 🏗️ How It Works </h2>
+<h2>  How It Works </h2>
 
 <ol>
   <li><strong>Document Ingestion</strong>: Input documents are preprocessed and chunked for retrieval</li>
@@ -69,7 +63,7 @@ cd Fine_tune_RAG</code></pre>
 
 ---
 
-<h2> 📌 Key Achievements </h2>
+<h2>  Key Achievements </h2>
 
 <ul>
   <li>🔹 <strong>Reduced query response latency by 40%</strong> through hybrid retrieval optimization</li>
@@ -80,7 +74,7 @@ cd Fine_tune_RAG</code></pre>
 
 ---
 
-<h2> 📜 Future Improvements </h2>
+<h2>  Future Improvements </h2>
 
 <ul>
   <li>🔹 Expand dataset to handle more diverse coding queries</li>
@@ -90,32 +84,14 @@ cd Fine_tune_RAG</code></pre>
 
 ---
 
-<h2> 📢 Contributing </h2>
-
-<p>We welcome contributions! If you'd like to improve this project, feel free to submit a pull request or open an issue.</p>
-
----
-
-<h2> 📬 Contact </h2>
+<h2>  Contact </h2>
 
 <p>For any questions or collaborations, feel free to reach out:</p>
 <ul>
-  <li>📧 Email: <a href="mailto:your-email@example.com">your-email@example.com</a></li>
-  <li>🐦 Twitter: <a href="https://twitter.com/yourhandle">@yourhandle</a></li>
   <li>🔗 LinkedIn: <a href="https://www.linkedin.com/in/soureeshdalal/">Soureesh Dalal</a></li>
 </ul>
 
 ---
 
-<h2> 🎯 Acknowledgments </h2>
-
-<p>This project is inspired by ongoing research in <strong>Retrieval-Augmented Generation (RAG)</strong> and large-scale language model fine-tuning.</p>
-<ul>
-  <li>🔹 Hugging Face for their open-source transformer models</li>
-  <li>🔹 ChromaDB & BM25 developers for their retrieval implementations</li>
-  <li>🔹 The open-source AI community for contributions to LLM optimization</li>
-</ul>
-
----
 
 <h2 align="center">🚀 Happy Coding! 🚀</h2>
